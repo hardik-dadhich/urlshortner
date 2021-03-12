@@ -2,7 +2,7 @@
 
 It would be a url shortnet like tiny url.
 
-# cases/deatures I am going to handle : 
+# cases/features I am going to handle : 
  - [ ]  accept a URL as an argument over a REST API and return a shortened URL as a result.
  - [ ] The URL and shortened URL should be stored in memory by application.
  - [ ] [BONUS] Instead of in memory, store these things in a text file.
