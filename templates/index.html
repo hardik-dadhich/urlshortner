@@ -25,13 +25,13 @@
         {% csrf_token %}
         <div class="container">
             <div class="jumbotron">
-                <p>Simple shortner for your big links...! </p>
+                <p>Simple shortner for your big links...! paste https:// urls </p>
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Paste your URL here !!!">
+                            <input type="url" name="incoming_url" class="form-control" placeholder="https://exmaple.com" sizee="80" pattern="https://.*" required>
                             <span class="input-group-btn">
-                      <button class="btn btn-shortner" type="submit">Shorten !</button>
+                      <button class="btn btn-primary" type="submit">Shorten !</button>
                     </span>
                         </div>
                     </div>
